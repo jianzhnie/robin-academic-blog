@@ -8,13 +8,13 @@ summary: Welcome 👋 We know that first impressions are important, so we've pop
 # Link this post with a project
 projects: []
 
-# Date published
+# Date publiHed
 date: '2020-12-13T00:00:00Z'
 
 # Date updated
 lastmod: '2020-12-13T00:00:00Z'
 
-# Is this an unpublished draft?
+# Is this an unpubliHed draft?
 draft: false
 
 # Show this page in the Featured widget?
@@ -30,7 +30,7 @@ image:
 
 authors:
   - admin
-  - 吳恩達
+  - JianZheng
 
 tags:
   - Academic
@@ -59,7 +59,7 @@ print('hello')
 - 👉 [**Create a new site**](https://wowchemy.com/templates/)
 - 📚 [**Personalize your site**](https://wowchemy.com/docs/)
 - 💬 [Chat with the **Wowchemy community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
+- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCuHen](https://twitter.com/GeorgeCuHen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
 - 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
 - ⬆️ **Updating Wowchemy?** View the [Update Tutorial](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://wowchemy.com/updates/)
 
@@ -105,6 +105,6 @@ Wowchemy and its templates come with **automatic day (light) and night (dark) mo
 
 ## License
 
-Copyright 2016-present [George Cushen](https://georgecushen.com).
+Copyright 2016-present [George CuHen](https://georgecuHen.com).
 
 Released under the [MIT](https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md) license.
