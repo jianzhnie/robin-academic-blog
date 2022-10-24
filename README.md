@@ -125,7 +125,7 @@ draft: true
 
 ### 生成网页
 
-为了查看生成的博客的效果，我们在本地编辑调试时可以通过 `hugo server` 命令进行本地实时调试预览，无须每次都重新生成。在cmd中运行以下命令，即我们可以通过浏览器  http://localhost:1313/ 地址访问我们的本地预览网页。
+为了查看生成的博客的效果，我们在本地编辑调试时可以通过 `hugo server` 命令进行本地实时调试预览，无须每次都重新生成。在cmd中运行以下命令，即我们可以通过浏览器  http://localhost:1313/ 地址访问我们的本地预览网页。
 
 ```
 hugo server -D
@@ -160,17 +160,12 @@ A：Github Pages 本质上是一个静态网站托管系统，你可以使用它
 
 > 将 Hugo 部署为 Github Pages 项目，并使用简单的 shell 脚本自动化整个过程
 
-前提：已注册GitHub账号，登录
-
 第一步： **创建一个 Github 仓库**
 
 1. 登录后，点击右上角，出现下拉菜单，点击 Your repositories 进入页面
-
 2. 点击 New
-
 3. 进入 Creat a new repository 页面
-
-4. 图中的 yourname 要换成自己的github的用户名，即上图中Owner显示的用户名。最后点击Creat repository即完成
+4. `Repository name` 这里一定要填 `[你的github帳號].github.io`，像我的帳號是 `jianzhnie`，所以我就要輸入 `jianzhnie.github.io`，然後按 `[Create Repository]` 。
 
 第二步：创建新文章
 
@@ -192,7 +187,7 @@ draft: true
 
 第三步：**修改配置文件 config.toml**
 
-站点目录**`config.toml`**中**`baseURL`**要换成自己建立的仓库，如baseURL = “https://yourname.github.io/"
+站点目录**`config.toml`**中**`baseURL`**要换成自己建立的仓库，如baseURL = “https://jianzhnie.github.io/"
 
 第四步： 进入**站点根目录**下，执行：
 
@@ -225,7 +220,51 @@ git commit -m "[介绍，随便写点什么，比如日期]"
 git push -u origin master
 ```
 
+## 用 Github 的 gh-pages 分支展示自己的项目
 
+上根据上面的教程， 我们可以 创建个人的博客网站，如 `https://jianzhnie.github.io`, 这个网站一般是作为个人博客或者学术主页，如果我们还有其他项目需要展示， 如项目文档，产品文档，学习笔记等， 那这个主页就不够用了。
+
+下面介绍一种解决方案，用 Github 的 gh-pages 分支展示自己的项目。Github创建项目仓库后随即只产生一个master分支，只需要再添加`gh-pages`分支就可以创建静态页面了。这利用了项目站点（即Project Pages）的方式。
+
+下面通过一个例子来说明 gh-pages  的使用：
+
+第一步： **创建一个 Github 仓库**
+
+- 例如新建一个 `deeplearning-notes` 的仓库，主要用于记录深度学习的笔记， GitHub 地址： https://github.com/jianzhnie/deeplearning-notes
+
+第二步， 同样的参考上面搭建网站的方式,  新建一个网站：
+
+- `hugo new site `  project
+
+第三步， 新建一篇笔记：
+
+- `hugo new posts/deeplearning.md`
+
+第四步：**修改配置文件 config.toml**
+
+站点目录**`config.toml`**中**`baseURL`**要换成自己建立的仓库，如baseURL = “https://jianzhnie.github.io/deeplearning-notes/"
+
+第五步： 进入**站点根目录**下，执行：
+
+```
+hugo
+```
+
+执行后，站点根目录下会生成一个 `public` 文件夹，该文件下的内容即Hugo生成的整个静态网站。
+
+第六步：初始化项目，并设置 gh-pages 分支
+
+```
+cd public
+git init
+git remote add origin https://github.com/jianzhnie/jianzhnie.github.io.git # 将本地目录链接到远程服务器的代码仓库
+git checkout -b gh-pages
+git add .
+git commit -m "[介绍，随便写点什么，比如日期]"
+git push -u --set-upstream origin gh-pages
+```
+
+第七步：打开 https://jianzhnie.github.io/deeplearning-notes/ 就可以看到项目的相关文档了。
 
 
 
@@ -316,8 +355,6 @@ git add -A
 git commit -m "20200204-1"
 git push -u origin master
 ```
-
-至此OK，顺利的话应该是一步到位的。
 
 
 
