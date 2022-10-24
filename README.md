@@ -417,3 +417,15 @@ theme = "theme-demo"
 
 此外，在有些 theme-demo 文件夹中会有 demo 或 example 目录，文件结构与新建的 Hugo 项目的文件结构几乎是一样的，这样设置是为了用户的配置可以覆盖掉主题的配置。
 
+
+## Reference
+
+- https://leidawt.github.io/post/%E5%80%9F%E5%8A%A9hugo%E5%92%8Cacademic%E4%B8%BB%E9%A2%98%E5%9C%A8github/
+- https://medium.com/%E9%80%B2%E6%93%8A%E7%9A%84-git-git-git/%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B-%E7%94%A8github-pages-%E4%B8%8A%E5%82%B3%E9%9D%9C%E6%85%8B%E7%B6%B2%E7%AB%99-fa2ae83e6276
+- https://www.cnblogs.com/MuYunyun/p/6082359.html
+- show case
+  - https://github.com/andrewheiss/datavizs21.classes.andrewheiss.com
+  - https://datavizs21.classes.andrewheiss.com/content/05-content/
+- https://wowchemy.com/templates/
+- https://github.com/wowchemy/starter-hugo-research-group
+
