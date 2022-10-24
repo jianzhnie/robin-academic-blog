@@ -54,8 +54,8 @@ header:
 
 locale:
   date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
-  address_format: en-us
+  time_format: '8:04 AM'
+  address_format: zh
 
 # Site features
 
@@ -87,7 +87,7 @@ features:
       category: ''
       category_id: ''
   search:
-    provider: wowchemy
+    provider: google
     algolia:
       app_id: ''
       api_key: ''

@@ -21,7 +21,6 @@ content:
     region: 广东省
     city:  深圳市
     street: 南山区
-    postcode: '510600'
     country: 中国
     country_code: CN
 
