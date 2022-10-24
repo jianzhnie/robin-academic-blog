@@ -23,8 +23,12 @@ bio: My research interests include Reinforment Learning, Natual Language Process
 # Interests to show in About widget
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Reinforcement Learning
+  - Natural Language Process
+  - Computer Vision
+  - Machine Learning
+
+  
 
 # Education to show in About widget
 education:
