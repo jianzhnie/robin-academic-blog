@@ -9,34 +9,73 @@ appearance:
   theme_day: minimal
   theme_night: minimal
   font: minimal
-  font_size: L
+  font_size: M
+
+# appearance:
+#   theme_day: Dark
+#   theme_night: Dark
+#   font: Dark
+#   font_size: L
+
+# appearance:
+#   theme_day: Strawberry
+#   theme_night: Strawberry
+#   font: Strawberry
+#   font_size: L
+
+# appearance:
+#   theme_day: Ocean
+#   theme_night: Ocean
+#   font: Ocean
+#   font_size: L
+
+# appearance:
+#   theme_day: Mr Robot
+#   theme_night: Mr Robot
+#   font: Mr Robot
+#   font_size: L
+
+# appearance:
+#   theme_day: Rose
+#   theme_night: Rose
+#   font: Rose
+#   font_size: L
 
 # SEO
 
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    local_business_type: ""
+    org_name: ""
+    description: "A highly-customizable Hugo academic resume theme powered by Wowchemy website builder."
+    twitter: "wowchemy"
   analytics:
-    google_analytics: ''
-    baidu_tongji: ''
+    google_analytics: ""
+    baidu_tongji: ""
   verification:
-    google: ''
-    baidu: ''
+    google: ""
+    baidu: ""
 
 # Site header
 
 header:
   navbar:
+    # Display the navigation bar?
     enable: true
+    # Align menu links: left (l), center (c), or right (r)
     align: l
+    # Display your site title or `assets/media/logo*` image in the nav bar?
     show_logo: true
+    # Show a language chooser (if you have translated your site content)?
+    show_translations: true
+    # If `show_translations` is enabled, do you wish to display the current language name?
     show_language: true
+    # Let the user override the default light/dark mode of your theme?
     show_day_night: true
+    # Let the user search from the nav bar?
     show_search: true
+    # Attempt to automatically highlight the active menu link? Can be disabled for complex sites.
     highlight_active_link: true
 
 # Site footer
@@ -53,8 +92,8 @@ header:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '8:04 AM'
+  date_format: "Jan 2, 2006"
+  time_format: "8:04 AM"
   address_format: zh
 
 # Site features
@@ -68,34 +107,34 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/jianzhnie/robin-academic-blog'
+    url: "https://github.com/jianzhnie/robin-academic-blog"
     content_dir: content
     branch: dev
   avatar:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
+    provider: ""
     disqus:
-      shortname: ''
+      shortname: ""
       show_count: true
     commento:
-      url: ''
+      url: ""
     giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
+      repo: ""
+      repo_id: ""
+      category: ""
+      category_id: ""
   search:
     provider: google
     algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
+      app_id: ""
+      api_key: ""
+      index_name: ""
       show_logo: false
   map:
-    provider: ''
-    api_key: ''
+    provider: ""
+    api_key: ""
     zoom: 15
 
 # Extensions
