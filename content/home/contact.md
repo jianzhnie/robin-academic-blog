@@ -18,9 +18,9 @@ content:
   # Contact details (edit or remove options as required)
   email: jianzhnie@gmial.com
   address:
-    street: 南山区
-    city:  深圳市
     region: 广东省
+    city:  深圳市
+    street: 南山区
     postcode: '510600'
     country: 中国
     country_code: CN
