@@ -14,8 +14,11 @@ role: Engineer of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: PCLlab
+  - name: Peng Cheng Laboratory
     url: https://www.pcl.ac.cn/
+
+  - name: XIDIAN University
+    url: https://www.xidian.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Reinforment Learning, Natual Language Process.
@@ -26,9 +29,10 @@ interests:
   - Reinforcement Learning
   - Natural Language Process
   - Computer Vision
+  - Deep Learning
   - Machine Learning
+  - Statistics
 
-  
 
 # Education to show in About widget
 education:
@@ -36,12 +40,12 @@ education:
     - course: PhD in Artificial Intelligence
       institution: Stanford University
       year: 2018
-    - course: Artificial Intelligence
+    - course: Master in Aplication Statistics
       institution: XiDian University
-      year: 2013
+      year: 2015
     - course: BSc in Statistics
-      institution: Massachusetts Institute of Technology
-      year: 2009
+      institution: Northeast Agricultural University
+      year: 2011
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -56,16 +60,19 @@ social:
     link: https://twitter.com/robin_jianzh
     label: Follow me on Twitter
     display:
-      header: true
-  - icon: facebook
-    icon_pack: fab
-    link: https://twitter.com/robin_jianzh
-    label: Follow me on Twitter
-    display:
-      header: true
+      header: false
+  # - icon: facebook
+  #   icon_pack: fab
+  #   link: https://twitter.com/robin_jianzh
+  #   label: Follow me on Twitter
+  #   display:
+  #     header: false
   - icon: github
     icon_pack: fab
     link: https://github.com/jianzhnie
+    label: Follow me on Github
+    display:
+      header: true
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/
@@ -84,8 +91,6 @@ email: ''
 highlight_name: true
 ---
 
-Robin is a Engineer of artificial intelligence at the PCL AI Lab. He research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Artificial Intelligence(AI) is one of the most emerging fields of science and engineering. Since 1956, “artificial intelligence” is created, after more than 60 years of development, AI now encompasses a wide variety of subfields, ranging from general-purpose fields such as learning and perception to specialized fields such as playing chess, proving mathematical theorems, diagnosing diseases, autonomous driving and so on, becoming a broad interdisciplinary and frontier science.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+Robin is a Engineer of artificial intelligence at the PCL AI Lab. He research interests include distributed robotics, machine learning, deep learning, computer vision.
