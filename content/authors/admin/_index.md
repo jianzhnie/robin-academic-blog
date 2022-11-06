@@ -91,15 +91,6 @@ email: ''
 highlight_name: true
 ---
 
-Hi, My name is JianZheng Nie and I am currently an engineer of artificial intelligence at the [PCL AI Lab](). I earned my master degree from the Mathematics and Statistics, [XiDian University]().  My major is Statistics, i really love it, because this major gave me a good foundation in Math, Data Science and Artificial intelligence. I’m a big fan of GitHub, I have developed and Maintained a few  open source projects, such as [AutoTimm](https://github.com/jianzhnie/AutoTimm), [AutoTabular](https://github.com/jianzhnie/AutoTabular), [nlptoolkit](https://github.com/jianzhnie/nlp-toolkit), [deepfold](https://github.com/jianzhnie/DeepFold) and [deep-rl-toolkit](https://github.com/jianzhnie/deep-rl-toolkit) on github.
-
-I also like cooking, watching movie, solving puzzles, reading,… However, I am good at none of them. In this cas, I am a dabbler in life, too.
+Hi, My name is JianZheng Nie and I am currently an engineer of artificial intelligence at the [PCL AI Lab](https://www.pcl.ac.cn/). I earned my master degree from the Mathematics and Statistics, [XiDian University](https://www.xidian.edu.cn).  My major is Statistics, i really love it, because this major gave me a good foundation in Math, Data Science and Artificial intelligence. I’m a big fan of GitHub, I have developed and Maintained a few  open source projects, such as [AutoTimm](https://github.com/jianzhnie/AutoTimm), [AutoTabular](https://github.com/jianzhnie/AutoTabular), [nlptoolkit](https://github.com/jianzhnie/nlp-toolkit), [deepfold](https://github.com/jianzhnie/DeepFold) and [deep-rl-toolkit](https://github.com/jianzhnie/deep-rl-toolkit). I also like cooking, watching movie, solving puzzles, reading,… However, I am good at none of them. In this cas, I am a dabbler in life, too.
 
 I am lazy, so I just modified a hugo template theme [academic](https://academic-demo.netlify.app/) to show this blog. But I am always willing to learn something new and this blog will be focused on something interesting in my life.
-
-Here is some links related to this website:
-
-[Github](https://github.com/jianzhnie) Robin 的 github 主页
-[Yihui’s blog](https://yihui.org/): 一个我非常崇拜的偶像
-[lilianweng' blog](https://lilianweng.github.io/): 经常光顾的技术博客
-[Chiyuan Zhang(张弛原)](https://pluskid.org/): 人工智能技术大佬
