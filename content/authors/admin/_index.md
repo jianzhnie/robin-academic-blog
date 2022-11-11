@@ -24,28 +24,28 @@ organizations:
 bio: My research interests include Reinforment Learning, Natual Language Process.
 
 # Interests to show in About widget
-interests:
-  - Artificial Intelligence
-  - Reinforcement Learning
-  - Natural Language Process
-  - Computer Vision
-  - Deep Learning
-  - Machine Learning
-  - Statistics
+# interests:
+  # - Artificial Intelligence
+  # - Reinforcement Learning
+  # - Natural Language Process
+  # - Computer Vision
+  # - Deep Learning
+  # - Machine Learning
+  # - Statistics
 
 
 # Education to show in About widget
-education:
-  courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2018
-    - course: Master in Aplication Statistics
-      institution: XiDian University
-      year: 2015
-    - course: BSc in Statistics
-      institution: Northeast Agricultural University
-      year: 2011
+# education:
+#   courses:
+#     - course: PhD in Artificial Intelligence
+#       institution: Stanford University
+#       year: 2018
+#     - course: Master in Aplication Statistics
+#       institution: XiDian University
+#       year: 2015
+#     - course: BSc in Statistics
+#       institution: Northeast Agricultural University
+#       year: 2011
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -90,7 +90,25 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+<!-- #  <center>About Me</center> -->
 
 Hi, My name is JianZheng Nie and I am currently an engineer of artificial intelligence at the [PCL AI Lab](https://www.pcl.ac.cn/). I earned my master degree from the Mathematics and Statistics, [XiDian University](https://www.xidian.edu.cn).  My major is Statistics, i really love it, because this major gave me a good foundation in Math, Data Science and Artificial intelligence. I’m a big fan of GitHub, I have developed and Maintained a few  open source projects, such as [AutoTimm](https://github.com/jianzhnie/AutoTimm), [AutoTabular](https://github.com/jianzhnie/AutoTabular), [nlptoolkit](https://github.com/jianzhnie/nlp-toolkit), [deepfold](https://github.com/jianzhnie/DeepFold) and [deep-rl-toolkit](https://github.com/jianzhnie/deep-rl-toolkit). I also like cooking, watching movie, solving puzzles, reading,… However, I am good at none of them. In this cas, I am a dabbler in life, too.
 
-I am lazy, so I just modified a hugo template theme [academic](https://academic-demo.netlify.app/) to show this blog. But I am always willing to learn something new and this blog will be focused on something interesting in my life.
+## <center>About this site</center>
+
+This site is created with [Hugo Academic](https://academic-demo.netlify.app/). It's a very good template to build personal blog site. The Markdown source files are hosted on Github. When you read the blog posts, you can navigate to the previous post by the left-arrow key or next post by right-arrow.
+
+## <center>Some links</center>
+
+- [统计之都](https://cosx.org/)
+- [Yihui Xie](https://yihui.org/)
+- [Chiyuan Zhang](https://pluskid.org/)
+- [Lilian](https://lilianweng.github.io/)
+
+## <center>My projects</center> 
+Below is an incomplete list of git repository and projects I have worked on.
+
+- [Machine-Learning-Wiki](https://jianzhnie.github.io/machine-learning-wiki/)
+- [Deep Reinforcement Learning](https://jianzhnie.github.io/machine-learning-wiki/#/deep-rl/)
+- [AutoTimm](https://github.com/jianzhnie/AutoTimm)
+- [AutoTabular](https://github.com/jianzhnie/AutoTabular)
