@@ -92,7 +92,7 @@ highlight_name: true
 ---
 <!-- #  <center>About Me</center> -->
 
-Hi, My name is JianZheng Nie and I am currently an engineer of artificial intelligence at the [PCL AI Lab](https://www.pcl.ac.cn/). I earned my master degree from the Mathematics and Statistics, [XiDian University](https://www.xidian.edu.cn).  My major is Statistics, i really love it, because this major gave me a good foundation in Math, Data Science and Artificial intelligence. I’m a big fan of GitHub, I have developed and Maintained a few  open source projects, such as [AutoTimm](https://github.com/jianzhnie/AutoTimm), [AutoTabular](https://github.com/jianzhnie/AutoTabular), [nlptoolkit](https://github.com/jianzhnie/nlp-toolkit), [deepfold](https://github.com/jianzhnie/DeepFold) and [deep-rl-toolkit](https://github.com/jianzhnie/deep-rl-toolkit). I also like cooking, watching movie, solving puzzles, reading,… However, I am good at none of them. In this cas, I am a dabbler in life, too.
+Hi, My name is JianZheng Nie and I am currently an engineer of artificial intelligence at the [PCL AI Lab](https://www.pcl.ac.cn/). I earned my master degree from the Mathematics and Statistics, [XiDian University](https://www.xidian.edu.cn).  My major is Statistics, i really love it because 他that gave me statistical thinking to see the world. I work on machine learning, deep learning and data maining. I'm especially interested in understanding the generalization and memorization in machine and human learning, as well as implications in related areas like privacy. I’m a big fan of GitHub, I have developed and Maintained a few  open source projects, such as [AutoTimm](https://github.com/jianzhnie/AutoTimm), [AutoTabular](https://github.com/jianzhnie/AutoTabular), [nlptoolkit](https://github.com/jianzhnie/nlp-toolkit), [deepfold](https://github.com/jianzhnie/DeepFold) and [deep-rl-toolkit](https://github.com/jianzhnie/deep-rl-toolkit). I also like cooking, watching movie, solving puzzles, reading,… However, I am good at none of them. In this cas, I am a dabbler in life, too.
 
 ## <center>About this site</center>
 
@@ -108,7 +108,7 @@ This site is created with [Hugo Academic](https://academic-demo.netlify.app/). I
 ## <center>My projects</center> 
 Below is an incomplete list of git repository and projects I have worked on.
 
-- [Machine-Learning-Wiki](https://jianzhnie.github.io/machine-learning-wiki/)
-- [Deep Reinforcement Learning](https://jianzhnie.github.io/machine-learning-wiki/#/deep-rl/)
-- [AutoTimm](https://github.com/jianzhnie/AutoTimm)
-- [AutoTabular](https://github.com/jianzhnie/AutoTabular)
+- [Machine-Learning-Wiki](https://jianzhnie.github.io/machine-learning-wiki/): a collection of machine-learning notes. 
+- [Deep Reinforcement Learning](https://jianzhnie.github.io/machine-learning-wiki/#/deep-rl/): Inclue most of deep reinforcement learning algorithms and examples to show how to use.
+- [AutoTimm](https://github.com/jianzhnie/AutoTimm): An auto image-classification toolbox based timm.
+- [AutoTabular](https://github.com/jianzhnie/AutoTabular): An automl  toolbox for tabular data.
